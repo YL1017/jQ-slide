@@ -1,0 +1,152 @@
+body {
+	margin: 100px auto;
+}
+/*home导航开始*/ 
+.home-category-yl {
+	float: left;
+	width: 234px;
+} 
+.site-category-yl li a {
+	position:relative;
+	display: block;
+	height: 42px;
+	padding-left: 30px;
+	line-height: 42px;
+	color: #fff;
+	background-color: #201a1aef;
+	z-index: 9999;
+}
+.site-category-first {
+	padding-top: 20px;
+}
+.site-category-last {
+	padding-bottom: 20px;
+}
+.home-hero-banner {
+	height: 460px;
+}
+.site-category-yl i {
+	margin-right: 23px;
+}
+.home-hero-slider {
+	position: relative;
+	width: 1226px;
+	height: 460px;
+	cursor: pointer;
+}
+.home-hero-slider ul li {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 1226px;
+	height: 460px;
+}
+.home-hero-slider ul li a {
+	display: block;
+	width: 1226px;
+	height: 460px;
+}
+.home-hero-slider img {
+	width: 1226px;
+	height: 460px;
+}
+/*轮播图左右箭头开始*/
+.home-arrow p {
+	width: 26px;
+	height: 50px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	text-align: center;
+	line-height: 50px;
+	font-size: 24px;
+	cursor: pointer;
+	z-index: 100;
+	background-color: rgb(255, 255, 255, .5);
+}
+.home-arrow .arrow-left {
+	left : 234px;
+}
+.home-arrow .arrow-right {
+	right: 0;
+}
+.home-arrow p i {
+	font-size: 24px;
+}
+/*轮播图左右箭头结束*/
+/*轮播图下面小圈滚动开始*/
+.slider-trundle {
+	position: absolute;
+	right: 40px;
+	bottom: 10px;
+	z-index: 100;
+}
+.slider-trundle li {
+	float: left;
+	width: 20px;
+	height: 20px;
+	margin-left: 5px;
+	text-align: center;
+	line-height: 20px;
+	/*box-shadow: 3px 3px 3px #red;*/
+	border-radius: 10px;
+	background-color: #ccc;
+} 
+.slider-trundle a {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-radius: 5px;
+	background-color: #000;
+}
+/*轮播图左右箭头开始*/
+.home-arrow p {
+	width: 26px;
+	height: 50px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	text-align: center;
+	line-height: 50px;
+	font-size: 24px;
+	cursor: pointer;
+	z-index: 100;
+	background-color: rgb(255, 255, 255, .5);
+}
+.home-arrow .arrow-left {
+	left : 234px;
+}
+.home-arrow .arrow-right {
+	right: 0;
+}
+.home-arrow p i {
+	font-size: 24px;
+}
+/*轮播图左右箭头结束*/
+/*轮播图下面小圈滚动开始*/
+.slider-trundle {
+	position: absolute;
+	right: 40px;
+	bottom: 10px;
+	z-index: 100;
+}
+.slider-trundle li {
+	float: left;
+	width: 20px;
+	height: 20px;
+	margin-left: 5px;
+	text-align: center;
+	line-height: 20px;
+	border-radius: 10px;
+	background-color: #ccc;
+} 
+.slider-trundle a {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-radius: 5px;
+	background-color: #000;
+}
+/*轮播图下面小圈滚动结束*/

@@ -1,0 +1,117 @@
+/*清除内外边距*/
+		body, ul, ol, dl, dd, h1, h2, h3, h4, h5, h6, input, p, form {
+			margin: 0;
+			padding: 0;
+		}
+		/*设置通用字体*/
+		body {
+			font: 14px arial, 'Microsoft Yahei';
+			/*background-color: #f6f6f6;*/
+		}
+		/*通栏*/
+		.box {
+			border-top: 1px solid #ccc;
+			width: 100%;
+		}
+		/*设置版心*/
+		.w {
+			width: 1226px;
+			margin: 0 auto;
+		}
+		li {
+			/*清除列表符号(编号)*/
+			list-style: none;
+		}
+		a {
+			text-decoration: none;
+			/*白色*/
+			/*color: #fff;*/
+		}
+		a:hover {
+			/*连接后*/
+			color: orange;
+		}
+		img {
+			/*清除ie6默认边框*/
+			border: 0 none;
+			/*清除图片默认底部缝隙*/
+			vertical-align: middle;
+		}
+		input {
+			border: 0 none;
+			/*清除默认轮廓线*/
+			outline: none;
+		}
+		.fl {
+			float: left;
+		}
+		.fr {
+			float: right;
+		}
+		/*清除浮动*/
+		.clearfix:before, .clearfix:after {
+			content: "";
+			display: table;
+		}
+		.clearfix:after {
+			clear: both;
+		}
+		.clearfix {
+			*zoom: 1;
+		}
+		.mr0 {
+			margin-right: 0;
+		}
+		/* 省略号 */
+		.ell {
+			white-space: nowrap;  
+		 	overflow: hidden;  
+		 	text-overflow: ellipsis;
+		}
+		/*字体大小*/
+		.f14 {
+			font-size: 14px;
+		}	
+		.f16 {
+			font-size: 16px;
+		}
+		.f18 {
+			font-size: 18px;
+		}	
+		.f20 {
+			font-size: 20px;
+		}
+		/*颜色*/
+		.red {
+			color: red;
+		}
+		.top {
+			border-top: 1px solid #fff;
+		}
+		.left {
+			border-left: 1px solid #fff;
+		}
+		.right {
+			border-right: 1px solid #fff;
+		}
+		.bottom {
+			border-bottom: 1px solid #fff;
+		}
+		@font-face {
+		  	font-family: 'iconfont';
+		  	src: url('https://at.alicdn.com/t/font_851661_10z1saqnxkw.eot');
+		 	src: url('https://at.alicdn.com/t/font_851661_10z1saqnxkw.eot?#iefix') format('embedded-opentype'),
+		  	url('https://at.alicdn.com/t/font_851661_10z1saqnxkw.woff') format('woff'),
+		  	url('https://at.alicdn.com/t/font_851661_10z1saqnxkw.ttf') format('truetype'),
+		  	url('https://at.alicdn.com/t/font_851661_10z1saqnxkw.svg#iconfont') format('svg');
+		}
+		.iconfont {
+  			font-family:"iconfont" !important;
+  			font-size:16px;
+  			font-style:normal;
+  			-webkit-font-smoothing: antialiased;
+  			-webkit-text-stroke-width: 0.2px;
+  			-moz-osx-font-smoothing: grayscale;
+		}
+
+
